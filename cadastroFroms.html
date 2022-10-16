@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="URF-8">
+        <title>FORMULÁRIO - CADASTRO ALUNOS</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    </head>
+
+    <body>
+        <section class="head" id="head">
+            <div class="pre-head cadastre"> 
+                <img src="Imagens/forma.png" >
+
+                <div>
+                    <h1>Cadastro</h1>
+                    <span>Matrícula novo aluno.<br/>
+                        Preencha todos os dados abaixo<br/><br/>
+                        <b>ESCOLA DE INGLÊS FIX</b><br/></span>
+                </div>
+            </div>
+            
+        </section>
+        
+        
+        <forms id="body">
+            <div class="row row-palceholder">Realize seu cadastro aqui.</div>
+            <placeholder class="row placeholder row-palceholder"> <!-- Não utilizei bootstrap, está adaptado com css -->
+                
+                <div class="col-xs-12 col-md-4">
+                    <label>Nome completo</label>
+                    <input type="text" id="nome" name="name" placeholder="Digite seu nome completo..."> <!-- Não utilizei bootstrap, está adaptado com css -->
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <label>E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="endereco@dominio.com">    
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <label>Telefone</label>
+                    <input type="number" id="number" name="number" placeholder="(99) 99999-9999" >
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <label>Data de nascimento</label>
+                    <input type="date" id="date" name="date">     
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <label>Sexo</label>
+                    <select name="select">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Não Binário</option>
+                        <option>Prefiro não informar</option>
+                    </select>   
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <label>Nivelamento</label>
+                    <select name="select" >
+                        <option>Iniciante</option>
+                        <option>Intermediário</option>
+                        <option>Avançado</option>
+                        <option>Fluente</option>
+                    </select>   
+                </div>
+
+                <div class="col-xs-12">
+                    <label>Sobre você</label>
+                    <textarea id="sobre" rows="4" placeholder="Fale sobre você, seus interesses e objetivos..."></textarea>
+                </div>
+                
+                <button class="btn">CADASTRAR</button>
+                <button class="btn btnDelete">CANCELAR</button>
+            </palceholder>
+
+            </forms>
+
+        <section id="footer">
+            <span>
+                <a href="https://www.cotemig.com.br/">
+                    <img src="/Imagens/logo_cotemig.png" class="">
+                    Acesse o site
+                </a>
+            </span>
+        </section>
+        
+    </body>
+</html>

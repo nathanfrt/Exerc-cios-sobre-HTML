@@ -2,62 +2,71 @@
 
 body {font-family: 'Montserrat', sans-serif;}
 
-h1 { font-size: 35px; }
-h2 { display: inline-block; text-shadow: 0px 0px 2px #818181; }
-h4 { margin: auto; }
-h5 { margin: 3px 0px 10px; }
 
-p { text-align: justify; }
-
-.col-md-4{ width: 100%; display: inline-block; margin: auto;}
-.col-md-4{ width: 33%;}
-
-.placeholder { display: block; background: #ededed; padding: 40px; border-radius: 5px; }
-.placeholder input, .placeholder select { background: transparent; border: 0; border-bottom: 1px solid black; border-radius: 4px; width: 80%; margin-bottom: 30px; outline: none; }
-.placeholder label { display: block !important;}
-
-.certificate h5 { font-weight: 400; margin: 0px; }
-.head img { position: relative; top: 0px; width: 15% !important; filter: invert(1); border-radius: 0px !important; border: 0px solid white !important;}
-
-.titles { margin-bottom: -15px; }
-.titles h2 { position: relative; top: -8px; }
-
-.row { margin: 50px 100px; }
+.row { margin: 50px 100px; text-align: center;}
 .row-palceholder { margin: 15px 100px !important ;}
 
-.icone { width: 3%; margin: 10px 20px 0px 0px; }
+h1 { font-size: 30px; letter-spacing: 8px;}
+button.Btnblack {
+    background: gray;
+}
 
-.content-div { margin: 0px 0px 25px 75px; text-align: justify; }
-.imgFooter { filter: invert(1);}
+.lblHorario img {
+    width: 20px;
+}
 
-.btn{ color: white; background: black; padding: 8px; border-radius: 5px; display: block; float: right; right: 4%; position: relative; margin: 5px 10px; font-weight: bold; cursor: pointer;}
-.btnDelete { background: gray; border-color: transparent; }
+.lblHorario img:last-child {
+    float: right;
+}
 
-.tblSerieA td { border: 1px solid #d9d7d7; border-top: 0px; border-left: 0px; border-right: 0px; height: 45px; font-size: 15px; text-align: center; }
-.tblSerieA img {width: 30%;}
-.tblSerieA { width: 50%; display: block; margin: auto; }
+.lblHorario {
+    width: 300px;
+    font-size: 25px;;
+    margin: auto;
+    text-align: left;
+    margin-block-start: 20px;
+}
 
-.tblSerieA td:nth-child(1) { width: 5%; }
-.tblSerieA td:nth-child(2) { width: 10%; }
-.tblSerieA td:nth-child(3) { width: 40%; }
-.tblSerieA td:last-child { width: 10%; }
+.lblDescrição span {
+    background: white;
+    display: block;
+    text-align: left;
+    padding: 7px 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
 
-#menuFix {display: none;}
+.lblName {
+    font-size: 14px;
+}
+img.procurar {
+    width: 22px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 
-#head div:last-child{ display: inline-block; margin-left: 60px; }
-#head div:last-child span { font-size: 16px; margin-top: -25px; position: relative; display: block; }
-#head img { position: relative; top: 0px; width: 20%; border-radius: 100px; border: 2px solid white; }
+img.imgRodape {
+    text-align: right;
+    position: relative;
+    float: right;
+}
 
-#head, #footer { text-align: center; background: black; padding: 1px; color: white; }
+.agenda { text-align: center; }
+.agenda label { background: white; padding: 10px 35px; font-size: 16px; position: relative; top: 20px; border: none; }
+.agenda input { outline: none; padding: 10px 20px; width: 300px; border-radius: 4px; border: 1px solid #ccc; }
+.agenda button { background: #CE6946; color: white; padding: 14px 10px; position: relative; border: none; top: 18px; font-size: 11px; right: 5px; }
 
-#footer span { display: inline-flex; color: white; }
-#footer img, .imgFooter { width: 5%; margin-right: 15px; }
-#footer a { text-decoration: none !important; color: white; display: inline-flex; cursor: pointer; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center; margin: 9px; }
+.formsAgenda { border: 1px solid #CE6946; border-radius: 5px; background: #E5DDD6; display: inline-block; }
 
-#sobre { width: 95%; background: transparent; border-radius: 4px; }
+.tblCalender table { text-align: center; display: inline; font-size: 20px; font-weight: 300; }
+.tblCalender th:first-child { color: #CE6946; }
+.tblCalender th { font-weight: bold; }
+.tblCalender td { padding: 10px; cursor: pointer; }
+.tblCalender span { display: block; background: #ce6946; color: white; padding: 10px 5px; font-weight: bold; letter-spacing: 4px; font-size: 24px; margin-bottom: 15px; margin-block-start: 30px; }
 
-
-
+.autoCompleteExemplo { background: white; border: 1px solid #ccc; border-radius: 5px; }
+.autoCompleteExemplo span { display: block; text-align: left; padding: 8px 20px; font-style: italic; border-bottom: 1px solid #ccc; }
 
 @media (max-width: 768px ){
 
